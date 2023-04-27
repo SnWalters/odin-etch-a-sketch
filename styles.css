@@ -23,11 +23,30 @@ body {
 #container {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     height: 70vh;
     width: 50%;
     margin: 10vh auto;
     border: 30px solid red;
     border-radius: 25px;
+}
+
+#screen {
+    display: flex;
+    flex-direction: column;
+    background-color: #c0c0c0;
+    width: 80%;
+    height: 75%;
+    border: 1px solid #0005;
+    border-radius: 10px;
+    box-shadow: 0 5px 3px 5px grey;
+}
+
+#button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .row {
@@ -43,5 +62,5 @@ body {
 }
 
 .fill {
-    background-color: blue;
+    background-color: var(--background-color);
 }
