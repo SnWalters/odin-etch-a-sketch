@@ -1,17 +1,21 @@
 html.blue {
     --background-color: blue;
+    --font-color: #f9faf8;
 }
 
 html.red {
     --background-color: red;
+    --font-color: #000;
 }
 
 html.purple {
     --background-color: purple;
+    --font-color: #f9faf8;
 }
 
 html.black {
     --background-color: black;
+    --font-color: #f9faf8;
 }
 
 body {
@@ -63,4 +67,5 @@ body {
 
 .fill {
     background-color: var(--background-color);
+    color: var(--font-color);
 }
