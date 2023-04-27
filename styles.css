@@ -19,7 +19,7 @@ html.black {
 }
 
 body {
-    background-color: #c0c0c0;
+    background-color: #1f2937;
     margin: 0;
     padding: 0;
 }
@@ -34,6 +34,7 @@ body {
     margin: 10vh auto;
     border-radius: 25px;
     background-color: #f00;
+    box-shadow: 0 5px 5px 5px #c0c0c0;
 }
 
 #screen {
@@ -71,9 +72,20 @@ body {
     color: var(--font-color);
 }
 
+#button-container > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: monospace;
+    color: #f9faf8;
+}
+
 button {
     height: 100%;
-    width: 35%;
+    width: 20%;
     border-radius: 50%;
     font-size: 3rem;
     font-family: cursive;
